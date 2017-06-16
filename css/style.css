@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+	overflow: hidden;
+	background-color: whitesmoke;
+}
+
+
+#board{
+	position: relative;	
+	background-color: gray;	
+	border-radius: 5px;
+	margin:0 auto;
+	width: 517px;
+	height: 517px;
+	margin-top: 50px;
+}
+
+
+.cnv{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+#canvas{
+	z-index: 2;		
+	background-color: transparent;
+}
